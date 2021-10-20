@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hk.edu.cuhk.iems5722.a1_1155164941">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cuhk"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/cuhk"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.A1_1155164941">
+
+        <activity android:name=".ChatActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
